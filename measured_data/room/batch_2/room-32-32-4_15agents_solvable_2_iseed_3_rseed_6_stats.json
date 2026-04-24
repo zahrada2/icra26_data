@@ -1,0 +1,98 @@
+{
+    "instance": {
+        "intruder_seed": 3,
+        "map": "room-32-32-4.map",
+        "map_height": 32,
+        "map_width": 32,
+        "name": "room-32-32-4_15agents_solvable_2",
+        "num_agents": 15,
+        "replan_seed": 6
+    },
+    "intruder data": {
+        "appear time": 26000,
+        "disappear time": 44000,
+        "path": [
+            {
+                "position": {
+                    "x": 27,
+                    "y": 16
+                },
+                "time": 26000
+            }
+        ],
+        "selected agents ids": [
+            1
+        ]
+    },
+    "metric replanning": {
+        "activation threshold": 999
+    },
+    "metrics at replan": {
+        "first_last_dif": 21,
+        "highest_action_delay_1": 15992,
+        "highest_action_delay_10": 15992,
+        "highest_action_delay_15": 15992,
+        "highest_action_delay_20": 15992,
+        "highest_action_delay_3": 15992,
+        "highest_action_delay_5": 15992,
+        "highest_action_delay_7": 15992,
+        "highest_exp_action_delay_1": 15992,
+        "highest_exp_action_delay_10": 15992,
+        "highest_exp_action_delay_15": 15992,
+        "highest_exp_action_delay_20": 15992,
+        "highest_exp_action_delay_3": 15992,
+        "highest_exp_action_delay_5": 15992,
+        "highest_exp_action_delay_7": 15992,
+        "highest_exp_plan_delay": 13053,
+        "highest_plan_delay": 16019,
+        "highest_slack_increase": 0,
+        "total_action_delay_1": 15992,
+        "total_action_delay_10": 15992,
+        "total_action_delay_15": 15992,
+        "total_action_delay_20": 15992,
+        "total_action_delay_3": 15992,
+        "total_action_delay_5": 15992,
+        "total_action_delay_7": 15992,
+        "total_exp_action_delay_1": 15992,
+        "total_exp_action_delay_10": 15992,
+        "total_exp_action_delay_15": 15992,
+        "total_exp_action_delay_20": 15992,
+        "total_exp_action_delay_3": 15992,
+        "total_exp_action_delay_5": 15992,
+        "total_exp_action_delay_7": 15992,
+        "total_exp_plan_delay": 13467,
+        "total_plan_delay": 16019,
+        "waiting_agents": 0
+    },
+    "no intruder": {
+        "SOC_plan": 338000,
+        "SOC_sim": 338592,
+        "makespan_sim": 50067
+    },
+    "original plan": {
+        "SOC": 338,
+        "makespan": 50
+    },
+    "random replan": {
+        "SOC_plan_after_replan": 21000,
+        "SOC_plan_before_replan": 317000,
+        "SOC_sim_after_replan": 21017,
+        "SOC_sim_before_replan": 333443,
+        "SOC_sim_total": 354460,
+        "SOC_sim_total_with_solver": 354467,
+        "SOC_sim_waiting": 7,
+        "computation time": 7,
+        "makespan_sim": 66038,
+        "planned replan time": 44751,
+        "replan time": 45020,
+        "unfinished agents at replan": 1
+    },
+    "solver": {
+        "bound": "1.00",
+        "name": "ECBS"
+    },
+    "with intruder": {
+        "SOC_sim": 354490,
+        "makespan_sim": 66032
+    }
+}
